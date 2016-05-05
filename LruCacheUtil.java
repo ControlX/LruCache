@@ -81,11 +81,11 @@ public class LruCacheUtil {
 
     /**
      * @param url
-     * @return
+     * @return 
      */
     private String resolveFileNameFromUrl(String url) {
-
-        return null;
+		//Todo: User can get a substring of url and can use as a filename. Make sure the filename in url is received as unique from server.
+        return url;
     }
 
     //====================Public methods to gain access for cache information========================//
